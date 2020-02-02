@@ -1,0 +1,49 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+h1 {
+
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2 {
+
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.callout {
+    color: #03a3df;
+    font-size: 30px;
+}
+
+.speaker {
+    color: #03a3df;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.instructor-card {
+    width: 200px;
+    padding: 1em;
+}
+
+#instructor-list {
+    display: flex;
+}
+
+#footer-image {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
