@@ -37,7 +37,18 @@ h3 {
     padding: 1em;
 }
 
-#instructor-list {
+.class-card {
+    padding: 10px;
+}
+
+.class-list {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 10px;
+    grid-template-rows: 33% 34% 33%;
+}
+
+.instructor-list {
     display: flex;
 }
 
