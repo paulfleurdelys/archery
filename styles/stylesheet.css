@@ -9,10 +9,15 @@ header {
     
 }
 
+main {
+    padding: 1em;
+}
+
 h1 {
 
     font-weight: bold;
     font-size: 40px;
+    color: #03a3df;
 }
 
 h2 {
@@ -37,34 +42,35 @@ h3 {
 
 .header-links {
     padding: 1em;
+    margin:1em;
     float: right;
     color: white;
     font-style: italic;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .header-links a:link {
     text-decoration: none;
     color: white;
-
+    padding: 1em 1em;
 }
 
 .header-links a:visited {
     text-decoration: none;
     color: white;
-
+    padding: 1em 1em;
 }
 
 .header-links a:hover {
     text-decoration: none;
     color: white;
-
+    padding: 1em 1em;
 }
 
 .header-links a:active {
     text-decoration: none;
     color: white;
-
+    padding: 1em 1em;
 }
 
 .callout {
@@ -99,9 +105,22 @@ h3 {
     background-color: #1b447f
 }
 
+.class-card h2 {
+    color: white;
+}
+
+.class-card h3 {
+    color: #ecb722;
+}
+
 .class-card p {
     color: white;
     margin: 1em;
+}
+
+.class-card-divider {
+    background-color: #ecb722;
+    height:1px;
 }
 
 .class-list {
@@ -119,10 +138,12 @@ h3 {
 .footer-content {
     color: white;
     position: absolute;
-    top: 1200px;
+    bottom: 2px;
+    background-color: yellow;
 }
 
 #footer-image {
+    display: block;
     max-width: 100%;
     height: auto;
     width: auto;
