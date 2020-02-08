@@ -81,9 +81,17 @@ h3 {
 .instructor-card {
     width: 200px;
     padding: 1em;
-    border-color: #03a3df;
-    border-width: 1px;
-    border-style: solid;
+}
+
+.instructor-card-top-block {
+    background-color: #03a3df;
+    height: 1em;
+    padding: none;
+}
+
+.instructor-card-divider {
+    background-color: #03a3df;
+    height:1px;
 }
 
 .class-card {
@@ -93,6 +101,7 @@ h3 {
 
 .class-card p {
     color: white;
+    margin: 1em;
 }
 
 .class-list {
@@ -104,6 +113,13 @@ h3 {
 
 .instructor-list {
     display: flex;
+    justify-content: flex-start;
+}
+
+.footer-content {
+    color: white;
+    position: absolute;
+    top: 1200px;
 }
 
 #footer-image {
