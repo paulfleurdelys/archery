@@ -4,6 +4,11 @@ body {
     font-size: 17px;
 }
 
+header {
+    background-color: #03a3df;
+    
+}
+
 h1 {
 
     font-weight: bold;
@@ -21,6 +26,47 @@ h3 {
     font-size: 17px;
 }
 
+.header-content-container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.header-image {
+    padding: 1em;
+}
+
+.header-links {
+    padding: 1em;
+    float: right;
+    color: white;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.header-links a:link {
+    text-decoration: none;
+    color: white;
+
+}
+
+.header-links a:visited {
+    text-decoration: none;
+    color: white;
+
+}
+
+.header-links a:hover {
+    text-decoration: none;
+    color: white;
+
+}
+
+.header-links a:active {
+    text-decoration: none;
+    color: white;
+
+}
+
 .callout {
     color: #03a3df;
     font-size: 30px;
@@ -35,10 +81,18 @@ h3 {
 .instructor-card {
     width: 200px;
     padding: 1em;
+    border-color: #03a3df;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .class-card {
     padding: 10px;
+    background-color: #1b447f
+}
+
+.class-card p {
+    color: white;
 }
 
 .class-list {
