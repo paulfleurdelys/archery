@@ -77,7 +77,7 @@ h3 {
 .footer-content {
     color: white;
     position: absolute;
-    bottom: 50px;
+    bottom: 0px;
     padding: 1em;
 }
 
@@ -119,6 +119,10 @@ footer a:active {
     text-decoration: none;
     color: white;
     padding: 1em 1em;
+}
+
+footer p {
+    padding: 1em;
 }
 
 .callout {
