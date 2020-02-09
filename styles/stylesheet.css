@@ -98,6 +98,10 @@ h3 {
     width: 250px;
     padding: 1em;
     color: #03a3df;
+}
+
+.instructor-card img {
+    margin: auto;
 
 }
 
@@ -124,7 +128,7 @@ h3 {
 
 .class-card {
     padding: 10px;
-    background-color: #1b447f
+    background-color: #1b447f;
 }
 
 .class-card h2 {
@@ -148,17 +152,24 @@ h3 {
 .class-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
     column-gap: 1em;
     row-gap: 1em;
 }
 
 .private-class-card-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20% 15% auto;
+    column-gap: 1em;
 }
 
-.private-class-card {
+.private-class-card-cost {
+    grid-row: 2/1;
+}
 
+.private-class-card-cost {
+    grid-row: 2/3;
 }
 
 .instructor-list {
