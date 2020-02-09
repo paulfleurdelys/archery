@@ -9,6 +9,10 @@ header {
     
 }
 
+footer {
+    position: relative;
+}
+
 main {
     padding: 1em;
 }
@@ -138,8 +142,7 @@ h3 {
 .footer-content {
     color: white;
     position: absolute;
-    bottom: 2px;
-    background-color: yellow;
+    bottom: 100px;
 }
 
 #footer-image {
