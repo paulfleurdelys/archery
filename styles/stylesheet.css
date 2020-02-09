@@ -136,9 +136,9 @@ footer a:active {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     column-gap: 1em;
     row-gap: 1em;
-    grid-template-rows: 1fr;
 }
 
 .about-description {
@@ -146,6 +146,11 @@ footer a:active {
     flex-direction: column;
     padding: 1em;
     color: #03a3df;
+}
+
+.about-video {
+    grid-column: 2/3;
+    padding: 1em;
 }
 
 .instructor-card {
@@ -219,7 +224,7 @@ footer a:active {
 }
 
 .private-class-card-cost {
-    grid-row: 2/1;
+    grid-row: 1/2;
 }
 
 .private-class-card-cost {
